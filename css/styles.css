@@ -195,7 +195,7 @@ img{
     
     .section-team{
         background-color: #F4F4FD;
-        padding-bottom: 120px;
+        padding: 120px 0;
     }
     
     .section-team-header{
@@ -252,7 +252,8 @@ img{
         border: 1px solid transparent;
     }
 
-    .filter-list{
+    .filter-list,
+    .list{
         display: flex;
         justify-content: center;
         gap: 24px;
