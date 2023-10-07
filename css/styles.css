@@ -30,6 +30,7 @@ img{
 .menu{
     display: flex;
     gap: 40px;
+    list-style: none;
 }
 
 .item{
@@ -189,7 +190,7 @@ img{
         margin-bottom: 72px;
     }
 
-    .item-photo{
+.item-photo{
         width: calc((100% - 48px) / 3);
     }
     
@@ -269,6 +270,7 @@ img{
 
 .gallery{
     width: calc((100% - 48px) / 3);
+    text-decoration: none;
 }
 
 .containers{
